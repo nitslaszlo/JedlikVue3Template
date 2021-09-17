@@ -20,9 +20,17 @@
   },
   "workbench.startupEditor": "none",
   "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "volar.tsPlugin": true,
   "volar.tsPluginStatus": true,
   "eslint.alwaysShowStatus": true,
-  "eslint.format.enable": true
+  "eslint.format.enable": true,
+  "eslint.validate": ["vue", "javascript", "typescript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.eol": "\n",
+  "spellright.language": ["hu"],
+  "spellright.documentTypes": ["latex", "plaintext"]
 }
