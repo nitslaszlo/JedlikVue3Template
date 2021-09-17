@@ -1,4 +1,28 @@
 {
+  "editor.parameterHints.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "html.format.wrapLineLength": 0,
+  "html.suggest.html5": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "none",
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "volar.tsPlugin": true,
-  "volar.tsPluginStatus": true
+  "volar.tsPluginStatus": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true
 }
