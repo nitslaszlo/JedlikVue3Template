@@ -1,15 +1,20 @@
 <template>
-  <div>{{ props.count }} ({{ nextValue }})</div>
+  <div>{{ count }} ({{ nextValue }})</div>
   <button type="button" @click="onPlusButtonClick">Clicl Me!</button>
 </template>
 
 <script setup lang="ts">
-import { computed, defineProps, defineEmits } from "vue";
+import { computed } from "vue";
 
-const props = defineProps<{
-  count: number;
-}>();
+// eslint-disable-next-line no-undef
+const props = defineProps({
+  count: {
+    type: Number,
+    required: true,
+  },
+});
 
+// eslint-disable-next-line no-undef
 const emits = defineEmits({
   "update:count": (nextValue: number) => nextValue > 2,
 });

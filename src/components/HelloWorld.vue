@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { ref, defineProps } from "vue";
+import { ref } from "vue";
 
-const props = defineProps<{
+// eslint-disable-next-line no-undef
+defineProps<{
   msg: string;
 }>();
 
@@ -9,7 +10,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ props.msg }}</h1>
+  <h1>{{ msg }}</h1>
 
   <p>
     Recommended IDE setup:
