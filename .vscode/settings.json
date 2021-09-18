@@ -31,6 +31,5 @@
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "files.eol": "\n",
-  "spellright.language": ["hu"],
-  "spellright.documentTypes": ["latex", "plaintext"]
+  "vite.autoStart": false
 }
