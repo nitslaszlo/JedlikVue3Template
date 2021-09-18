@@ -1,17 +1,15 @@
 <script setup lang="ts">
-import { defineProps, ref } from "vue";
+import { ref, defineProps } from "vue";
 
-defineProps({
-  msg: {
-    type: String,
-    required: true,
-  },
-});
+const props = defineProps<{
+  msg: string;
+}>();
+
 const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1>{{ props.msg }}</h1>
 
   <p>
     Recommended IDE setup:
